@@ -1,0 +1,130 @@
+@import 'keyframes';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: roboto, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    width:100%; 
+    font-size: 1.2rem;
+    min-height: 100%!important;
+}
+
+h1{
+    display: flex;
+    justify-content: space-evenly;
+
+    & p:first-child{
+        animation: appearH1 1000ms;
+        font-family: 'Poiret One', cursive;
+    }
+    & p:nth-child(2){
+        animation: appearH1 2000ms;
+        font-family: 'Poiret One', cursive;
+    }
+    & p:nth-child(3){
+        animation: appearH1 3000ms;
+        font-family: 'Poiret One', cursive;
+    }
+}
+
+video {
+    width: 100%!important;
+    margin:auto!important;
+    margin-bottom : -5px!important;
+    max-height: 35rem;
+    background-color: rgb(31, 28, 28);
+ 
+}
+
+nav{
+    background-color: #111;
+    width:100%;
+    border-top: none!important;
+    .tabs-btn-nav{
+        display: flex;
+        
+        .tab{
+            background: transparent;
+            color: #c5c5c5;
+            text-align: center;
+            text-decoration: none;
+            font-family: open sans, sans-serif;
+            flex-basis: 100%;
+            font-size: clamp(20px, 2vw, 20px);
+            font-weight: 700;
+            padding: 20px 0;
+            cursor: pointer;
+            &:not(:nth-child(4),:nth-child(1)){
+                border-right: 1px solid #ffffff3e;
+            }
+            
+        } 
+        .active-tab{
+            background: linear-gradient(45deg, rgb(15, 42, 49),#43a6b9);
+            color: #fff;
+        }  
+    }
+}
+
+.supportArrow{
+    text-align: center;
+    margin-top:4rem;
+    margin-bottom: 2rem;
+    #arrow{
+        background-color: #111;
+        color: #fff;
+        border-radius: 5px;
+        padding: 9px 16px;
+        margin: 0 40px;
+        animation: animate 3s linear infinite;
+        
+      }
+    }
+
+
+h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 4rem!important;
+    margin:auto!important;
+    padding:3rem 0;
+}
+
+.background{
+    object-fit: cover;
+    width: 100%;
+    max-height: 35rem;
+    position: absolute;   
+}
+.services{
+    position: relative;
+    vertical-align : top;
+    max-width: 80%;
+    margin: auto;
+    ul{
+        list-style: none;
+        li {
+            margin-bottom: 1.5rem;
+            & span:first-child {
+                display: flex;
+                align-items: center;
+                column-gap:1rem;
+                h3{
+                    font-size: 2rem;
+                    
+                }
+            }
+            p{
+                display: none;
+                font-weight: 300;
+                padding: 2rem 0;
+                max-width: 1000px;
+            }
+        }
+    }
+
+}

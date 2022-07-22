@@ -14,7 +14,7 @@
     filter: hue-rotate(0deg);
   }
   to {
-    filter: hue-rotate(360deg);
+    filter: hue-rotate(270deg);
   }
 }
 * {
@@ -86,30 +86,35 @@ nav .tabs-btn-nav .active-tab {
 
 .supportArrow {
   text-align: center;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
+  margin: 5rem auto;
+  transform: rotate(-90deg);
 }
-.supportArrow #arrow {
-  background-color: #111;
+.supportArrow a {
+  font-weight: 600;
+  font-size: 30px;
+  color: #03e9f4;
+  background: #111;
   border-radius: 5px;
-  padding: 9px 16px;
+  padding: 12px 12px;
   margin: 0 40px;
   animation: animate 3s linear infinite;
+  transition: all 300ms;
 }
-.supportArrow #arrow:hover {
-  background: #03e9f4;
+.supportArrow a:hover {
+  background-color: #03e9f4;
   color: #111;
+  cursor: pointer;
 }
 
 h2 {
   font-family: "Poiret One", cursive;
   font-size: 4rem !important;
   margin: auto !important;
-  padding: 3rem 0;
+  padding: 1rem 0 3rem 0;
 }
 
 .background {
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
   max-height: 35rem;
   position: absolute;

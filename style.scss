@@ -77,14 +77,16 @@ nav{
     margin-bottom: 2rem;
     #arrow{
         background-color: #111;
-        color: #fff;
         border-radius: 5px;
         padding: 9px 16px;
         margin: 0 40px;
         animation: animate 3s linear infinite;
-        
-      }
+        &:hover{
+            background: #03e9f4;
+            color: #111;
+        }        
     }
+}
 
 
 h2{

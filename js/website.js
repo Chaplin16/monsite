@@ -65,7 +65,7 @@ const website = [
     {
         id:8,
         title:"Le Carrousel",
-        attachment:"image/website/aurore-creation-site-internet-aigues-mortes-rapide-petits-budgets-carrousel.png",
+        attachment:"image/website/creation-site-internet-aigues-mortes-carrousel.png",
         object:"Magnifique manège de chevaux en bois",
         link:"https://carrousel-aiguesmortes.fr",
         code:"Développé avec Word Press",
@@ -83,7 +83,7 @@ const website = [
     {
         id:10,
         title:"Cordonnerie des Remparts",
-        attachment:"image/website/aurore-creation-site-internet-aigues-mortes-rapide-petits-budgets-cordonnier-remparts.png",
+        attachment:"image/website/creation-site-internet-aigues-mortes-cordonnerie-remparts.png",
         object:"Cordonnerie sur Aigues-Mortes",
         link:"https://chaplin16.github.io/cordonnerie/",
         code: "Codé en Html, Css, Javascript, Bootstrap, Sass",
@@ -119,7 +119,7 @@ const website = [
     {
         id:14,
         title:"Les Artisans de Samaël",
-        attachment:"image/website/aurore-creation-site-internet-aigues-mortes-rapide-petits-budgets-artisans-de-samael.png",
+        attachment:"image/website/creation-site-internet-aigues-mortes-artisans-samel.png",
         object:"Boutique de santons de Provence",
         link:"https://www.artisansdesamael.com",
         code:"Codé  en Html, Css, Javascript, Bootstrap, Sass",
@@ -146,7 +146,7 @@ const website = [
     {
         id:17,
         title:"Nuit de Folie",
-        attachment:"image/website/creation-site-aigues-mortes-nuit-de-folie.png",
+        attachment:"image/website/creation-site-internet-aigues-mortes-nuit-de-folie.png",
         object:"Boutique de sous-vêtements féminins",
         link:"https://nuitdefolie.fr",
         code:"Codé  en Html, Css, Javascript, Bootstrap, Sass",
@@ -155,7 +155,7 @@ const website = [
     {
         id:18,
         title:"O Phil des Saveurs",
-        attachment:"image/website/aurore-creation-site-internet-aigues-mortes-rapide-petits-budgets-o-phil-des-saveurs.png",
+        attachment:"image/website/creation-site-internet-aigues-mortes-o-phil-des-saveurs.png",
         object:"Traiteur sur les marchés",
         link:"https://ophildessaveurs.fr",
         code:"Codé  en Html, Css, Javascript, Bootstrap, Sass",
@@ -164,7 +164,7 @@ const website = [
     {
         id:19,
         title:"Artiste Roudil",
-        attachment:"image/website/aurore-creation-site-internet-aigues-mortes-rapide-petits-budgets-roudil.png",
+        attachment:"image/website/creation-site-internet-aigues-mortes-roudil.png",
         object:"Peintre, sculpteur, ROUDIL Bruno",
         link:"https://roudil-on-textile.com",
         code:"Codé  en Html, Css, Javascript, Bootstrap, Sass",
@@ -173,7 +173,7 @@ const website = [
     {
         id:20,
         title:"Boutique Scénario",
-        attachment:"image/website/aurore-creation-site-internet-aigues-mortes-rapide-petits-budgets-scenario.png",
+        attachment:"image/website/creation-site-internet-aigues-mortes-scenario.png",
         object:"Vente de vêtements pour femme",
         link:"http://boutique-scenario.fr",
         code:"Codé  en Html, Css, Javascript, Bootstrap, Sass",
@@ -182,7 +182,7 @@ const website = [
     {
         id:21,
         title:"Verre Azur",
-        attachment:"image/website/aurore-creation-site-internet-aigues-mortes-rapide-petits-budgets-verre-azur.png",
+        attachment:"image/website/creation-site-internet-aigues-mortes-verre-azur.png",
         object:"Création de bijoux",
         link:"https://verre-azur.com",
         code:"Codé  en Html, Css, Javascript, Bootstrap, Sass",

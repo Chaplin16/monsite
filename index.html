@@ -35,7 +35,7 @@
         <video autoplay muted loop poster>
             <source src="/video/creation-site-internet-freelance.mp4" type="video/mp4">
         </video>
-        <nav class="tabs">
+        <nav id="nav">
             <div class="tabs-btn-nav">
                 <a href="/" class="tab active-tab">🏠</a>
                 <a href="/#services" class="tab">Prestations</a>
@@ -47,13 +47,13 @@
         </nav>
     </header>
     <main>
-        <p class="supportArrow"> 
-             <a id="arrow" src="image/down-arrow.png"> << </a>
+        <p class="supportArrow">
+            <a id="arrow" src="image/down-arrow.png">
+                << </a>
         </p>
-
-        <img class="background" src="image/creation-freelance-internet-montpellier-nimes.png">
+        <img class="background" src="image/creation-freelance-internet-montpellier-nimes.png" />
         <div class="services">
-            <h2 id="services">Les Prestations</h2>
+            <h2>Prestations</h2>
             <ul>
                 <li>
                     <span>
@@ -106,10 +106,16 @@
                 </li>
             </ul>
         </div>
+        <h2>Portfolio</h2>
+        <section id="portfolio">
+            <!-- section importée via portfolio.js et le tableau via website.js pour afficher tous les sites réalisés -->
+        </section>
     </main>
     <footer></footer>
-    <script src="navbar.js"></script>
-    <script src="index-services.js"></script>
+    <script src="js/website.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/portfolio.js"></script>
 
 
 

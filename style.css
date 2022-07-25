@@ -21,6 +21,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
@@ -54,6 +55,15 @@ video {
   margin-bottom: -5px !important;
   max-height: 35rem;
   background-color: rgb(31, 28, 28);
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #fff;
+  color: #111 !important;
 }
 
 nav {
@@ -110,7 +120,8 @@ h2 {
   font-family: "Poiret One", cursive;
   font-size: 4rem !important;
   margin: auto !important;
-  padding: 1rem 0 3rem 0;
+  padding: 5rem 0 3rem 0;
+  max-width: 80%;
 }
 
 .background {
@@ -145,6 +156,73 @@ h2 {
   font-weight: 300;
   padding: 2rem 0;
   max-width: 1000px;
+}
+
+section {
+  max-width: 80% !important;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 1.5rem;
+}
+
+.portfolio-card {
+  position: relative;
+  width: 255px;
+  height: 211px;
+  background-color: rgba(65, 63, 63, 0.26);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.portfolio-card h3 {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(136, 131, 131, 0.9);
+  color: #f7f7f7;
+  padding: 0.3rem 1rem;
+  font-size: medium;
+  border-end-start-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.portfolio-card:hover {
+  background-color: rgb(61, 59, 59);
+}
+
+.portfolio-title-hover,
+.portfolio-paragraphe-hover,
+.portfolio-span-hover,
+.portfolio-link-hover {
+  font-family: "Times New Roman", Times, serif;
+  color: #f7f7f7;
+  max-width: 80%;
+  position: absolute;
+}
+
+.portfolio-title-hover {
+  top: 1rem;
+  left: 1rem;
+}
+
+.portfolio-paragraphe-hover {
+  font-size: medium;
+  top: 4rem;
+  left: 1rem;
+}
+
+.portfolio-span-hover {
+  font-size: smaller;
+  font-style: italic;
+  top: 8rem;
+  left: 1rem;
+}
+
+.portfolio-link-hover {
+  bottom: -0.5rem;
+  left: 0.5rem;
+}
+.portfolio-link-hover:hover {
+  color: #03e9f4 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

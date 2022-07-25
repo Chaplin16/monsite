@@ -1,10 +1,4 @@
 
-//fonctions pour faire apparaitre au scroll les prestations
-let services = document.getElementsByClassName('services');
-function appearServices() {
-  let postServices = services.offsetTop;
-   
-}
 
 //fonction pour faire apparaitre a partir de 850px le background des prestations
 let background = document.querySelector('.background');

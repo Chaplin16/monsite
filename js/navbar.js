@@ -12,3 +12,13 @@ function tabsAnimation(e) {
 
     tabs[indexToShow].classList.add('active-tab');
 }
+
+
+let nav = document.getElementById('nav')
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 600) {
+      nav.classList.add("fixed");
+    } else {
+      nav.classList.remove("fixed");
+    }
+  });

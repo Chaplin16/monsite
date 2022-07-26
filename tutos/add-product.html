@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content=" Aurore Creation Web">
+        <meta name="description" content="Création de sites internet, articles pour modifier ou rajouter des photos sur des sites internet, sites vitrines de word press et site e-commerce sur prestashop."/>
+        
+        <meta name="robots" content="all" />
+        <meta name="google-site-verification" content=""/>
+
+        <meta property="og:site_name" content="Aurore Création Web"/>
+        <meta property="og:type" content="site web">
+        <meta property="og:url" content="https://aurorecreationweb.fr"/>
+        <meta property="og:title" content="Aurore Création Web, conseils pour des sites internet avec word press et prestashop"/>
+        <meta property="og:description" content="Création de sites internet, articles pour ajouter des porduits dans Prestashop pour vendre tours plus!"/>
+        <meta property="og:image" content="https://aurorecreationweb.fr/images/aurore-creation-web-site-internet.png"/>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+        
+        <link rel="icon" type="image/png" sizes="8x16"
+        href="images/favicon.png">
+ 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>Aurore création web, ajout de produits sur Prestashop</title>
+    </head>
+    
+    <body>
+        <!-- NAVBAR -->
+        <header class="pb-4">
+            <nav class="navbar navbar-expand-lg bg--color position-fixed w-100">
+                <div class="ms-1">
+                        <a href="index.html"	class="link tooltip-link" data-toggle="tooltip" data-original-title="06.77.80.98.69">
+                            <img class="nav--mermaid h-auto" src="images/mermaidSmall.png" alt="aigues mortes création de sites internet logo aurore web">
+                        </a>
+                    <p class="phone text-dark fw-bolder mb-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
+                        06.77.80.98.69
+                    </p>
+                    <p class="mb-0 mail">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                          </svg>
+                        <a class=" text-dark text-decoration-none fw-bold pb-0" href="mailto:chaplin16@orange.fr">chaplin16@orange.fr</a>
+                    </p>
+                </div>
+                <button class="navbar-toggler border border-dark border-3 bg-white me-2" 
+                type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span >MENU</span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                    <a class="nav-link fw-bolder text-dark ps-3" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link fw-bolder text-dark ps-3" href="price.html">Tarifs</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link fw-bolder text-dark ps-3 home" href="advice.html">Tutos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder text-dark ps-3" href="opinion.html">Avis Clients</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="pt-5 pe-2 ps-2 advice mt-5 text-align-center m-auto text-center">
+            <h1 class="text-center pt-5 pb-3">
+                AJOUTER DES ARTICLES DANS PRESTASHOP
+            </h1>
+            <p>
+            Vous êtes devant votre site e-commerce. En haut, dans la barre d’adresse se trouve l’url de votre site (https://…). Rajoutez à la fin de cet url <em class="text--color">/admin </em>+ votre numéro d'identifiant personnel +ENTREE
+            </p>
+            <img class="shadow rounded" src="images/prestashop/creation-site-internet-barre-adresse-google.jpg" alt="creation de site internet aurore aigues mortes barre d adresse google">
+            <p class="pt-2">
+                Voici sur la page d’identification. Ecrivez votre mail et mot de passe.
+            </p>
+            <img class="shadow rounded" src="images/prestashop/creation-site-internet-aigues-mortes-identification.jpg" alt="creation de site internet aurore aigues mortes identification"/>
+            <p class="pt-2">
+                <strong class="text-danger">BRAVO!</strong> Vous venez d’entrer dans votre site internet. Sur le côté gauche se trouve un menu latéral grisé. 
+            </p>
+            <img class="shadow rounded" style="max-width: 100%;" src="images/prestashop/creation-sites-internet-aigues-mortes-menu-lateral.jpg" alt="creation de site internet aurore aigues mortes menu latéral prestashop">
+            <p class="pt-2">
+                Vos produits sont classés dans des catégories, suivant leur appartenance, leur genre… Soit vous voulez ajouter un produit dans une catégorie déjà existante, soit vous voulez créer une nouvelle catégorie pour y insérer votre nouveau produit.
+            </p>
+            <ol>
+                <li>
+                    Créer une catégorie
+                </li>
+                <li>
+                    Ajouter un nouvel article dans une catégorie déjà existante
+                </li>
+            </ol>
+            <!-- CREATE CATEGORY -->
+            <section>
+                <h2 class="text--color">1) Créer une nouvelle catégorie</h2>
+                <p>
+                    Dans la barre latérale de gauche, allez dans Catégories en suivant le chemin: 
+                </p>
+                <img style="max-width: 100%;" src="images/prestashop/creation-site-internet-aurore-aigues-mortes-chemin-categorie.jpg" alt="creation de site internet aurore aigues mortes chemin categorie prestashop">
+                
+                
+                <div class=" pt-3 embed-responsive embed-responsive-16by9 text-center"> 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E9EW2OxnZCs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="pt-2">
+                    La page présente toutes vos catégories principales. Il faut désormais savoir où vous souhaitez créer votre catégories. Elles s’organise comme un organigramme pyramidale. Il y a les catégories principales qui peuvent posséder des sous-catégories, qui, elles-mêmes peuvent détenir des sous-sous-catégories et ainsi de suite.  Prenons l’exemple d’une boutique de vêtements.
+                </p>
+                <img style="max-width: 100%;" src="images/prestashop/creation-sites-internet-aigues-mortes-organigramme.jpg" alt="creation de site internet aurore aigues mortes-organigramme">
+                <p>
+                    Dans cet exemple:
+                </p>
+                <ol>
+                    <li>
+                        La catégorie principale est HOMME
+                    </li>
+                    <li>
+                        Les sous catégories sont Vêtements, Chaussures et Accessoires
+                    </li>
+                    <li>
+                        Les autres sont des sous-sous-catégories comme Chemises, Mocassins, Lunettes …
+                    </li>
+                </ol>
+                <div class="d-flex">
+                    <img class="pt-1" style="height:50px;" src="images/prestashop/aurore-creation-web-icone-point-exclamation.png" alt="creation de site internet aurore aigues mortes attention requise">
+                    <p class="text">
+                        Il est très important que vous sachiez où placer vos articles et dans quelle catégorie sinon vous et le client serez désorientés si tout est pêle-mêle. <br>
+                        <b>La structure de la boutique en ligne et donc l'organisation des catégories sont primordiales</b>.
+                    </p>
+                </div>
+                <h3 class="lead text-left">
+                    Vous voilà sur la page des catégories principales.
+                </h3>
+                <ul>
+                    <li class="pb-2">
+                         Si c’est une catégorie principale que vous souhaitez créer, alors cliquez tout en haut de la page sur <span class=" text-nowrap bg-info rounded pe-1 ps-1 border border-dark">Ajouter une catégorie</span>
+                    </li>
+                    <li class="pb-2">
+                        Si c’est une sous-catégorie que vous voulez créer, cliquez sur la catégorie dans laquelle la nouvelle catégorie doit s'intégrer, et cliquez sur <span class=" text-nowrap bg-info rounded pe-1 ps-1 border border-dark">Ajouter une catégorie</span>
+                    </li>
+                    <li class="pb-2">
+                        Si c’est une sous-sous-catégorie que vous voulez créer, cliquez sur la catégorie puis sous la sous-catégorie et lorsque vous êtes au bon endroit, cliquez sur <span class="text-nowrap bg-info rounded pe-1 ps-1 border border-dark">Ajouter une catégorie</span>
+                    </li>
+                </ul>
+                <img class="shadow rounded" style="max-width: 100%;" src="images/prestashop/creation-site-internet-aigues-mortes-ajout-categorie.jpg" alt="creation de site internet aurore aigues mortes ajout catégorie">
+                <p class="pt-2">
+                    La page pour créer la catégorie apparaît. Il vous faut renseigner impérativement ce qui est en rouge, le reste c’est au choix :
+                </p>
+                <ul>
+                    <li>
+                        <span class="text-danger"> Le nom de la catégorie</span>
+                    </li>
+                    <li>
+                        Affiché (laisser OUI si vous souhaitez que la catégorie apparaisse)
+                    </li>
+                    <li>
+                        La catégorie parente vous renseigne sur l’endroit où est placé la catégorie dans l’organigramme / la hiérarchisation de vos catégories.
+                    </li>
+                    <li>
+                        La miniature de la catégorie (c’est l’image qui apparaîtra au dessus de celle ci). Vous pouvez y joindre un fichier image.
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <img class="pt-1" style="height:50px;" src="images/prestashop/aurore-creation-web-icone-point-exclamation.png" alt="creation de site internet aurore aigues mortes point d attention">
+                    <p class="fw-bold">
+                        Le poids, la taille, la nomination de l’image et le texte alternatif sont des critères à prendre en compte lors de l’ajout de photos. Un autre de mes articles <a href="optimisation.html">l’optimisation des photos</a> vous y aidera.
+                    </p>
+                </div>
+                <ul>
+                    <li>
+                        <span class="text-danger">La description </span>(Décrire votre catégorie avec les mots importants pour que google vous retrouve, toujours les réécrire au maximum dans tous vos contenus) 
+                    </li>
+                    <li>
+                        <span class="text-danger">La balise title </span>( c’est le titre qui est écrit pour présenter la catégorie. Vous pouvez lire ce que vous écrivez au dessus dans la prévisualisation SEO .
+                    </li>
+                    <li>
+                        <span class="text-danger">La méta description est le texte qui apparaît sous le titre</span>
+                    </li>
+                    <li>
+                        Ne touchez pas aux champs suivants 
+                    </li>
+                    <li>
+                        <span class="text-danger">Enregistrez en bas à droite en bleu. </span> <span class="bg-info border border-dark rounded pe-1 ps-1">Enregistrer</span>
+                    </li>
+                </ul>
+                <h3 class="lead text-left">
+                    Vous voilà sur la page où la catégorie a été crééé.
+                </h3>
+                <p class="text">
+                    Vous pouvez déplacer la catégorie, la modifier ou la supprimer.
+                </p>
+                <div class="text">
+                     <img class="shadow rounded" style="max-width: 100%;" src="images/prestashop/creation-site-internet-aurore-place-categorie.jpg" alt="creation de site internet aurore aigues mortes place categorie">
+
+                     <p class="pt-2">
+                        <b>Place de la catégorie</b><br>
+                        Si vous allez sur la ligne de la catégorie, à gauche du numéro, en passant la souris, 6 petits points apparaissent. En maintenant la souris dessus, cela vous permet de descendre ou de monter la catégorie dans la même catégorie parente, c’est pour l’ordre d’apparition.
+                    </p>
+                    <b>Modifier la catégorie</b>
+                    <p>
+                        Sur la droite de la ligne, il y a l’icône d’un crayon. Cliquez dessus   et vous modifierez la catégorie. N’oubliez pas d'enregistrer. 
+                    </p>
+                    <b>Supprimer la catégorie</b>
+                    <p>
+                        Complètement à droite se trouve 3 petits points. Cliquez dessus et vous pouvez supprimer  la catégorie.	
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h2 class="text--color pt-4">2) Ajouter un produit</h2>
+                <p>
+                    Dans la barre latérale grisée de gauche, allez dans Produits en suivant le chemin: 
+                </p>
+                <img style="max-width: 100%;" src="images/prestashop/creation-site-internet-aurore-aigues-mortes-chemin-produit.jpg" alt="creation de site internet aurore aigues mortes chemin produit prestashop">
+                <p class="pt-3">
+                    La page de produits s’affiche. En cliquant sur <span class="text-nowrap border text-white pe-1 ps-1 rounded bg-secondary">Filtrer par catégorie </span>vous pouvez  sélectionner la catégorie où vous souhaitez insérer votre produit. Pour cela, il faut cliquer sur le nom des catégories parentes jusqu’à trouver la bonne  catégorie  et cocher la case de gauche. 
+                </p>
+                <p class="pt-2">
+                    Vous êtes désormais dans la bonne catégorie. Pour ajouter un produit, cliquez en haut sur <span class="bg-info text-nowrap rounded pe-1 ps-1">Nouveau produit</span>.
+                </p>
+                <div class="embed-responsive embed-responsive-16by9 text-center"> 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vW1lBDoE8ls?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3 class="pt-3">La fiche produit</h3>
+                <p class="text">
+                    La fiche produit apparaît avec en haut le champ pour saisir le titre et dessous un tableau de 6 onglets (Essentiel, Quantités, Livraison... )
+                </p>
+                <img class="shadow rounded" style="max-width: 100%;" src="images/prestashop/creation-site-internet-aurore-onglet-prestashop.jpg" alt="creation de site internet aurore aigues mortes onglets prestashop">
+                <h4 class="pt-3 text text--color">Essentiel</h4>
+                <ul>
+                    <li>
+                        <b>Saississez le nom de votre produit</b>: titre de votre article 3 à 6 mots courts et précis
+                    </li>
+                    <li>
+                        <b>Déposez vos images ici</b>: faites glisser la ou les images de votre produit
+                        <div class="d-flex pt-2">
+                            <img class="pt-1" style="height:50px;" src="images/prestashop/aurore-creation-web-icone-point-exclamation.png" alt="creation de site internet aurore aigues mortes point d attention requise">
+                            <p class="fw-bold">
+                                Le poids, la taille, la nomination de l’image et le texte alternatif sont des critères à prendre en compte lors de l’ajout de photos. Un autre de mes articles  <a class="text-decoration-none" href="optimisation.html"> l’optimisation des photos</a> vous y aidera.
+                            </p>
+                        </div>
+                        <p>
+                            Double cliquez sur l’image. Dans le cadre qui apparaît, décrivez l’image sous oublier vos mots clefs en quelques mots. Lu par google donc très important! Puis cliquez sur <span class="bg-info rounded pe-1 ps-1">Enregistrer</span>
+                        </p>
+                        <p class="text-center">
+                            <img class="shadow rounded mt-2" style="max-width: 100%;" src="images/prestashop/creation-site-internet-aurore-aigues-mortes-alt-produit-prestashop.jpg" alt="creation site internet aurore aigues mortes alt images prestashop">
+                        </p>
+                    </li>
+                    <li>
+                        <b>Récapitulatif</b>: une phrase pour décrire votre article avec vos mots clefs
+                    </li>
+                    <li>
+                        <b>Description</b>: Partie pour décrire votre produit. N’oubliez pas l’insertion de vos mots clefs 
+                    </li>
+                </ul>
+                <p class="text">Puis dans la partie de droite de ce tableau:</p>
+                <ul>
+                    <li>
+                        <b>Référence</b>:  il s’agit de la référence de votre produit ou l’endroit où il est stocké. Ce sont plus des indications pour vous, le vendeur.
+                    </li>
+                    <li>
+                        <b>Quantité</b>: Important si vous voulez que Prestashop gère vos quantités en stock sinon mettez un chiffre landa pour éviter d’indiquer rupture de stock à vos clients dès que le produit est vendu.
+                    </li>
+                    <li>
+                        <b>Prix Hors-taxe et TTC</b>: par défaut, la taxe est à zéro. Mettez le prix en HT ou TTC revient au même. Si vous souhaitez intégrer une taxe, des taxes générales sont sur le menu déroulant  dessous dans Règle de taxe. Pour une autre valeur, allez dans l’onglet PRIX de ce même tableau. Elle s'ajoutera automatiquement au prix HT.
+                    </li>
+                    <li>
+                        <b>Catégorie</b>: Il s’agit de savoir où doit apparaître votre produit. La principale catégorie s’affiche (c’est l’accueil). Cliquez sur déployer. A chaque fois que vous cochez le rond à gauche, ce produit apparaît dans la catégorie sélectionnée. Vous désélectionnez, le produit n’est plus affiché dans cette catégorie. L’accueil pour des nouveaux produits, c’est judicieux, en plus de sa catégorie définitive!).
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="pe-2" style="height:45px;" src="images/prestashop/aurore-creation-web-remarques.png" alt="creation de site internet icone d une remarque">
+                    <p class="mt-0 mb-0 text"> L'enregistrement se fait tout à la fin, poursuivez la procédure sans enregistrer.</p>
+                </div>
+                <h4 class="pt-3 text  text--color">Quantités</h4>
+                <p class="text ps-3">
+                    Dans le deuxième onglet du tableau se gère la quantité / votre stock. <br>Entrez votre quantité ainsi que la quantité minimale pour qu’une vente se réalise.
+                    <br>
+                    L’emplacement du stock et vos préférences en cas de rupture de stock.
+                    <br>
+                    Laissez tout en l’état si vous ne souhaitez pas de gestion de stock.
+                </p>
+                <h4 class="pt-3 text text--color">Livraison</h4>
+                <ul>
+                    <li>
+                        Remplir les délai de livraison, laissez le par défaut si aucune consigne particulière.
+                    </li>
+                    <li>
+                        Délai de livraison, communément entre 1 et 4 jours
+                    </li>
+                    <li>
+                        <b>Frais de livraison</b>: soit vous les ajoutez ici mais en cas d’achat de plusieurs articles, les frais vont s’additionner (ça risque de déplaire au client!), soit vous les écrivez par tranches de prix dans Personnaliser / Livraison / Préférence
+                    </li>
+                    <li>
+                        <b>Transporteurs disponibles</b>: cocher celui qui correspond à ce produit. Si aucun transporteur n’est sélectionné alors tous les transporteurs seront disponibles pour les clients.
+                    </li>
+                </ul>
+                <h4 class="pt-3 text  text--color">Prix</h4>
+                <p class="text">
+                    Cette rubrique est davantage pour les statistiques. Néanmoins une case est intéressante. Celle du bandeau PROMO qui s'affiche sur la fiche produit. A cocher si vous le souhaitez.
+                </p>
+                <h4 class="pt-3 text  text--color">Référencement - SEO</h4>
+                <ul>
+                    <li>
+                        <b>balise titre</b>: renseignez avec vos mots clefs le titre de votre produit.
+                    </li>
+                    <li>
+                        <b>méta description</b>: renseignez avec d’autres mots. Utilisez également vos mots clefs.
+                    <br>
+                        Vous avez un aperçu de la manière dont sera affichée la fiche produit dans les résultats de recherche de Google juste au dessus.
+                    </li>
+                    <li>
+                        <b>URL simplifiée</b>: Cliquez sur Réinitialiser et l’url de votre produit va s’inscrire.
+                    </li>
+                </ul>
+                <h4 class="pt-3 text  text--color">Options</h4>
+                <p class="text">
+                    Elles sont spécifiques et particulières à certains produits.
+                </p>
+
+                <p class="text">
+                    Voilà les 5 onglets sont remplis, vous pouvez désormais désactiver le Hors-ligne, le En ligne se coche, puis <span class="bg-info pe-1 ps-1 rounded">enregistrer</span>.
+                </p>
+                <img class="shadow rounded" style="max-width: 100%;" src="images/prestashop/creation-site-internet-aurore-mise-en-ligne-produit.jpg" alt="creation de site internet aigues mortes aurore mise en ligne produits prestashop">
+                <div class="d-flex pt-3">
+                    <img class="pt-1" style="height:50px;" src="images/prestashop/aurore-creation-web-icone-astuces.png" alt="creation de site internet aurore aigues mortes astuces">
+                    <p>
+                        En allant dans <span class="bg-light "><img src="images/prestashop/shopping-list.png" alt="creation de site internet aigues mortes aurore icone liste de produits prestashop"> Liste de Produits</span> en haut à droite, la catégorie dans laquelle vous travaillez s'affiche à droite. Cela permet de s’assurer rapidement que l’article est bien répertorié, au bon endroit, avec la quantité correct et le bon prix. 
+                    </p>
+                </div>
+                <p>
+                    Pour continuer à mettre des articles en ligne, cliquez sur Ajouter un nouveau produit en bas à droite et recommencer la procédure.
+                </p>
+                <img style="max-width: 100%;" src="images/prestashop/creation-site-internet-aurore-aigues-mortes-ajout-produit.jpg" alt="creation de site internet sur aigues mortes ajout produit">
+            </section>
+
+            <p class="text-danger">
+                Félicitations!!! Vous avez mis votre produit en ligne
+            </p>
+            <div class="tenor-gif-embed m-auto" data-postid="12045649" data-share-method="host" data-aspect-ratio="0.982143" data-width="30%"><a href="https://tenor.com/view/leonardo-dicaprio-toast-cheers-champagne-gif-12045649">Leonardo Dicaprio Toast GIF</a>from <a href="https://tenor.com/search/leonardo+dicaprio-gifs">Leonardo Dicaprio GIFs</a></div> <script async src="https://tenor.com/embed.js"></script>
+            <div class="pb-3">
+                Pour une version imprimable de ce tuto complet, voici le 
+                <a href="http://aurorecreationweb.fr/images/prestashop/Prestashop.pdf" target="_blank">fichier PDF ici</a>
+            </div>
+        </main>
+        <footer class="positionFooter">
+            <div class="footer w-100 d-flex justify-content-center align-items-center bg--color pt-2 pb-2">
+                <div class="text-center copyright">
+                    <p class=" text-dark m-auto">
+                        <strong>© 2021 AURORE CREATION WEB</strong>.<BR> Tous droits réservés
+                    </p>
+                    <a href="law.html" class="text-dark fw-normal text-decoration-none">Mentions légales</a>
+                </div>    
+                <div class="d-flex align-items-center pt-2 flex-column">
+                    <img src="images/mermaidSmall.png" class="mermaid ms-2 h-auto w-50"
+                        alt="nimes montpellier aigues mortes logo aurore création Web" />
+                    <a class="text-decoration-none text-dark fw-bold" href="https://aurorecreationweb.fr"> Aurore Creation Web </a>
+                    <div>
+                        <a href="https://www.linkedin.com/in/aurore-creation-web/" target="blank">
+                            <img class=" pe-2" src="images/linkedin.png" alt="creation site internet aigues mortes icone de linkedin">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100068251582418" target="blank">
+                            <img class=" ps-2" src="images/facebook.png" alt="creation site internet aigues mortes icone de facebook">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a class="text-decoration-none text-dark" href="index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none text-dark" href="fee.html">Tarifs</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none text-dark" href="advice.html">Conseils</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none text-dark" href="opinion.html">Avis Clients</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"     crossorigin="anonymous">
+        </script>
+
+  
+    </body>
+</html>

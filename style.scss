@@ -18,7 +18,7 @@ body{
 h1{
     display: flex;
     justify-content: space-evenly;
-
+    background-color: #e7e3e3;
     & p:first-child{
         animation: appearH1 1000ms;
         font-family: 'Poiret One', cursive;
@@ -290,10 +290,10 @@ section{
 //footer
 footer{
     display: flex;
-    column-gap: 10%;
+    column-gap: 5%;
     align-items: center;
     background: #000;
-    padding: 1rem;
+    padding: 1rem 3rem;
     color: #f7f7f7;
     font-size: small;
     & > div {
@@ -310,6 +310,10 @@ footer{
         position: relative;
         display: inline-block;
         border-bottom: 1px dotted black;
+        img{
+            width: 70px;
+            height: auto;
+        }
     }
     .tooltip .tooltipImg {
         visibility: hidden;
@@ -333,14 +337,26 @@ footer{
 }
 
 // page tutos
+
+
 .titleTuto{
     text-align: center;
 }
+
 .tutos{
     display: flex;
+    flex-wrap: wrap;
     column-gap: 1rem;
+    row-gap: 2rem;
     justify-content: space-around;
+    max-width:900px;
+    margin: auto;
 }
+
+.footer{
+    margin-top:3rem;
+}
+
 // page opinion.html
 #google{
     padding-top: 2rem;

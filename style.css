@@ -106,6 +106,10 @@ nav .tabs-btn-nav .tab {
 nav .tabs-btn-nav .tab:not(:nth-child(4), :nth-child(1)) {
   border-right: 1px solid rgba(255, 255, 255, 0.2431372549);
 }
+nav .tabs-btn-nav .tab:hover {
+  background: linear-gradient(45deg, rgb(15, 42, 49), #43a6b9) !important;
+  color: #fff;
+}
 nav .tabs-btn-nav .active-tab {
   background: linear-gradient(45deg, rgb(15, 42, 49), #43a6b9);
   color: #fff;
@@ -268,7 +272,7 @@ section {
   transition: all 300ms;
 }
 .developpeur .tuto-developpeur figure img:hover {
-  animation: jumpImgHover 600ms ease-in;
+  animation: jumpImgHover 1000ms ease-in;
 }
 .developpeur h5 {
   padding: 1rem 0;
@@ -304,7 +308,7 @@ section {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  column-gap: 10%;
   align-items: center;
   background: #000;
   padding: 1rem;
@@ -342,6 +346,20 @@ footer .tooltip .tooltipImg {
 }
 footer .tooltip:hover .tooltipImg {
   visibility: visible;
+}
+
+.titleTuto {
+  text-align: center;
+}
+
+.tutos {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: space-around;
+}
+
+#google {
+  padding-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

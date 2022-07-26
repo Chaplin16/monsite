@@ -72,6 +72,10 @@ nav{
             &:not(:nth-child(4),:nth-child(1)){
                 border-right: 1px solid #ffffff3e;
             }
+            &:hover{
+                background: linear-gradient(45deg, rgb(15, 42, 49),#43a6b9)!important;
+                color: #fff;
+            }
             
         } 
         .active-tab{
@@ -286,7 +290,7 @@ section{
 //footer
 footer{
     display: flex;
-    justify-content: space-between;
+    column-gap: 10%;
     align-items: center;
     background: #000;
     padding: 1rem;
@@ -326,4 +330,18 @@ footer{
     .tooltip:hover .tooltipImg {
         visibility: visible;
     }
+}
+
+// page tutos
+.titleTuto{
+    text-align: center;
+}
+.tutos{
+    display: flex;
+    column-gap: 1rem;
+    justify-content: space-around;
+}
+// page opinion.html
+#google{
+    padding-top: 2rem;
 }

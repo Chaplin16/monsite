@@ -254,14 +254,13 @@ section{
         a{
             color: #03e9f4;
         }
-        //info-bulle tooltip
+        //info-bulle tooltip of Mail Contact
         .tooltip {
             position: relative;
             display: inline-block;
             border-bottom: 1px dotted black;
-          }
-          
-          .tooltip .tooltiptext {
+        }
+        .tooltip .tooltiptext {
             visibility: hidden;
             width: 150px;
             background-color: rgb(187, 183, 183);
@@ -270,17 +269,16 @@ section{
             text-align: center;
             border-radius: 6px;
             padding: 5px 0;
-          
             /* Position the tooltip */
             position: absolute;
             z-index: 1;
             top: 30px;
             right: 0%;
-          }
+        }
           
-          .tooltip:hover .tooltiptext {
+        .tooltip:hover .tooltiptext {
             visibility: visible;
-          }
+        }
     }
 }
 
@@ -302,5 +300,30 @@ footer{
         &:hover{
             color:#03e9f4;
         }
+    }
+    //info-bulle tooltip of Mail Contact
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+    }
+    .tooltip .tooltipImg {
+        visibility: hidden;
+        width: 160px;
+        background-color: rgb(223, 219, 219);
+        color: rgb(131, 34, 110);
+        text-transform: capitalize;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: -50px;
+        right: 18%;
+    }
+      
+    .tooltip:hover .tooltipImg {
+        visibility: visible;
     }
 }

@@ -320,5 +320,28 @@ footer a {
 footer a:hover {
   color: #03e9f4;
 }
+footer .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+footer .tooltip .tooltipImg {
+  visibility: hidden;
+  width: 160px;
+  background-color: rgb(223, 219, 219);
+  color: rgb(131, 34, 110);
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -50px;
+  right: 18%;
+}
+footer .tooltip:hover .tooltipImg {
+  visibility: visible;
+}
 
 /*# sourceMappingURL=style.css.map */

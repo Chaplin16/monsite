@@ -1,3 +1,14 @@
+//fonction du bouton au dessous de la video && au dessus des prestations 
+let btn = document.querySelector(`.supportArrow`);
+let services = document.getElementById('services')
+
+btn.addEventListener('click', scrollDown);
+
+function scrollDown() {
+    window.scrollTo(0,100);
+    services.scrollIntoView({behavior: 'smooth'})
+
+}
 
 
 //fonction pour faire apparaitre a partir de 850px le background des prestations

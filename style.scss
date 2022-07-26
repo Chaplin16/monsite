@@ -241,7 +241,7 @@ section{
         figure img{
             transition: all 300ms;
             &:hover {
-                animation: jumpImgHover 600ms ease-in;
+                animation: jumpImgHover 1000ms ease-in;
             }  
         }
     }

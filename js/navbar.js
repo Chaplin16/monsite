@@ -13,7 +13,7 @@ function tabsAnimation(e) {
     tabs[indexToShow].classList.add('active-tab');
 }
 
-
+// essai pour cacher/montrer button
 let nav = document.getElementById('nav')
 window.addEventListener("scroll", () => {
     if (window.scrollY > 600) {
